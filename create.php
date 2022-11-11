@@ -15,7 +15,7 @@
 		$query = "INSERT INTO data(nama,nokp,tarikhlahir,umur,alamat) VALUES ('$fname','$nokp','$tarikh','$umur','$alamat')";
 		$result = mysqli_query($conn,$query);//kasi jalan tu sql
 		
-		header("location:idex.html");//ciao balik p idex.html
+		header("location:idex.php");//ciao balik p idex.html
 		
 		
 	}
